@@ -1,0 +1,685 @@
+@font-face{
+	font-family: TitilliumWeb;
+	src: url(../font/TitilliumWeb-Regular.ttf);
+}
+@font-face {
+	font-family: TitilliumWeb;
+	font-weight: bold;
+	src: url(../font/TitilliumWeb-Bold.ttf);
+}
+@font-face {
+	font-family: TitilliumWeb;
+	font-weight: 600;
+	src: url(../font/TitilliumWeb-SemiBold.ttf);
+}
+@font-face {
+	font-family: TitilliumWeb;
+	font-weight: 300;
+	src: url(../font/TitilliumWeb-Light.ttf);
+}
+@font-face {
+	font-family: TitilliumWeb;
+	font-style: italic;
+	src: url(../font/TitilliumWeb-Italic.ttf);
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	width: 1440px;
+	line-height: 1;
+	font-family: TitilliumWeb;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+	text-decoration: none;
+}
+* {
+	box-sizing: border-box;
+}
+.shadow {
+	width: 293px;
+	height: 3px;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	border-radius: 0px 0px 4px 4px;
+}
+#welcome {
+	height: 596px;
+	background-color: #87509c;
+}
+.welcome-container-top {
+	height: 92px;
+}
+.page-logo {
+	float: left;
+	margin-left: 212px;
+	margin-top: 57px;
+}
+.welcome-nav {
+	float: right;
+	margin-top: 70px;
+	margin-right: 177px;
+}
+
+.welcome-nav ul {
+	list-style: none;
+	text-decoration: none;
+	
+	background-color: #87509c;
+}
+.welcome-nav li {
+	text-align: center;
+	line-height: 32px;
+	width:77px;
+	height: 32px;
+	float: left;
+	border-radius: 5px;
+	margin: 0px 5.5px 0px 5.5px;
+	font-size: 16px;
+	letter-spacing: 0em;
+
+}
+.welcome-nav li:hover {
+	background-color: #643a79;
+}
+.welcome-nav li a {
+	color: #fff;
+}
+.welcome-description {
+	clear: both;
+	text-align: center;
+	font-weight: bold;
+	font-size: 42.16px;
+	color: #f7f3ea;
+	letter-spacing: 0em;
+	margin-top: 146px;
+}
+#welcome button {
+	width: 293px;
+	height: 70px;
+	background-color: #eb7d4b;
+	border-radius: 4px;
+	font-weight: 600;
+	font-size: 18px;
+	color: #fff;
+	border:none;
+}
+.welcome-container-bot {
+	position: relative;
+
+	text-align: center;
+	margin-top: 62px;
+}
+.welcome-container-bot >* {
+	display: inline-block;
+}
+#welcome .shadow {
+	background-color: #c86a40;
+}
+#services {
+	height: 747px;
+	background-color: #17c2a4;
+	color: #fff;
+}
+.services-container-top {
+	height: 323px;
+	text-align: center;
+}
+.services-title{
+	height: 169px;
+	padding-top: 117px;
+	font-weight: bold;
+	font-size: 40px;
+	letter-spacing: 0.1em;
+
+}
+.services-line{
+	width: 87px;
+	height: 4px;
+	margin: 0 auto;
+	background-color: #14a58c;
+}
+.services-description{
+	font-size: 18px;
+	letter-spacing: 0.02em;
+	line-height: 26px;
+	padding-top: 24px;
+}
+.services-container-bot {
+	padding: 0px 160px;
+}
+.service {
+	float: left;
+	width: 260px;
+	margin: 0px 10px;
+	text-align: center;
+}
+.service-title {
+	font-size: 24px;
+	font-weight: bold;
+	letter-spacing: 0.02em;
+	margin: 52px 0px 27px 0px;
+}
+.service-description {
+	padding: 0px 30px;
+	
+	font-size: 16px;
+	font-weight: 300px;
+	letter-spacing: 0.02em;
+	line-height: 24px;
+}
+
+
+
+#team {
+	height: 914px;
+	background-color: #e7f1f8;
+}
+#team .container-top{
+	height: 297px;
+	color: #3c4761;
+}
+.team-container-top {
+	height: 323px;
+	text-align: center;
+}
+.team-title{
+	height: 171px;
+	padding-top: 120px;
+	font-weight: bold;
+	font-size: 41.29px;
+	letter-spacing: 0.1em;
+
+}
+.team-line{
+	width: 87px;
+	height: 4px;
+	margin: 0 auto;
+	background-color: #c8d9e5;
+}
+.team-description{
+	font-size: 18.58px;
+	color: #3c4761;
+	letter-spacing: 0.02em;
+	line-height: 26.84px;
+	padding-top: 24px;
+}
+.team-container-bot{
+	padding-left: 160px
+}
+.member {
+	float:left;
+	text-align: center;
+	width: 260px;
+	margin: 0px 10px;
+	padding: 0px 29px;
+
+}
+.member-name {
+	font-weight: bold;
+	font-size: 24px;
+	letter-spacing: 0.02em;
+	color: #27283d;
+	margin: 42px auto 15px;
+}
+.member-position {
+	font-size: 16px;
+	letter-spacing: 0.02em;
+	color: #30bae7;
+}
+.member-description {
+	font-weight: 300px;
+	font-size: 16px;
+	letter-spacing: 0.02em;
+	color: #3c4761;
+	margin: 26px auto 33px;
+	line-height: 24px;
+}
+.member-contact {
+	width: 100%;
+	height: 32px;
+	
+
+
+}
+
+.icon {
+	position: relative;
+	text-align: center;
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	border-radius: 16px;
+	background-color: #bdd1df;
+	margin:0px 5px;
+}
+.icon i {
+	font-size: 16px;
+	position: absolute;
+	color: #fff;
+	top:8px;
+}
+.icon.social.fb i {
+	left: 12px;
+	top: 8px;
+}
+.icon.social.tw i {
+	left:8.8px;
+}
+.icon.social.in i {
+	left:8.8px;
+}
+.icon.social.em i {
+	left:8px;
+}
+
+
+#skills {
+	height: 655px;
+	background-color: #fff;
+}
+.skills-container-top {
+	height: 322px;
+	text-align: center;
+	color: #3c4761;
+}
+.skills-title{
+	height: 169px;
+	padding-top: 117px;
+	font-weight: bold;
+	font-size: 40px;
+	letter-spacing: 0.1em;
+
+}
+.skills-line{
+	width: 87px;
+	height: 4px;
+	margin: 0 auto;
+	background-color: #dfe8ed;
+}
+.skills-description{
+	font-size: 18px;
+	letter-spacing: 0.02em;
+	line-height: 26px;
+	padding-top: 24px;
+}
+.skills-container-bot {
+	padding-left: 160px;
+}
+.progress-bar {
+	display: inline-block;
+	width: 260px;
+	margin: 0px 10px;
+
+}
+.bar-name {
+	text-align: center;
+	font-weight: bold;
+	font-size: 24px;
+	letter-spacing: 0.02em;
+}
+
+
+
+#portfolio{
+	height: 1423px;
+	background-color: #ffdd99;
+	color: #393939;
+}
+.pf-container-top {
+	height: 384px;
+	text-align: center;
+	padding-top: 119px;
+}
+.pf-title {
+	font-weight: bold;
+	font-size: 40px;
+	letter-spacing: 0.1em;
+	
+	line-height: 40px;
+	margin-bottom: 20px;
+}
+.pf-line {
+	width: 87px;
+	height: 4px;
+	margin: 0 auto;
+	background-color: #e5c37f;
+}
+.pf-description {
+	font-size: 18px;
+	letter-spacing: 0.02px;
+	line-height: 26px;
+	padding: 22px 463px 43px 463px;
+}
+.pf-nav li {
+	list-style: none;
+	display: inline-block;
+	width: 84px;
+	height: 38px;
+	background-color: #ebc985;
+	border-radius: 3px;
+	font-size: 18px;
+	letter-spacing: 0.02em;
+	line-height: 38px;
+	text-align: center;
+	margin: 0px 4px;
+}
+.pf-nav li:hover {
+	background-color: #fff;
+}
+.pf-nav a {
+	text-decoration: none;
+	color: #393939;
+}
+.pf-container-bot {
+	padding-left:160px;
+}
+.pf-row {
+	margin-bottom: 66px;
+}
+.work {
+	display: inline-block;
+	width: 540px;
+	height: 356px;
+	
+	text-align: center;
+	margin: 0px 10px;
+}
+.work p {
+	margin-top: 29px;
+	font-size: 18px;
+	letter-spacing: 0.02em;
+}
+.pf-button {
+	text-align: center;
+	position: relative;
+	margin-top: 84px;
+}
+.pf-button > * {
+	display: inline-block;
+}
+.pf-button >button {
+	width: 293px;
+	height: 70px;
+	background-color: #17c2a4;
+	border-radius: 4px;
+	font-weight: 600;
+	font-size: 18px;
+	color: #fff;
+	border:none;
+}
+.pf-button .shadow{
+	background-color: #14a58c;
+}
+
+
+#testimonials {
+	height: 894px;
+	background-color: #d74680;
+}
+.ttm-container-top {
+	height: 281px;
+	text-align: center;
+	color: #fff;
+}
+.ttm-title {
+	height: 169px;
+	padding-top: 119px;
+	font-weight: bold;
+	font-size: 40px;
+	letter-spacing: 0.1em;
+
+}
+.ttm-line {
+	width: 87px;
+	height: 4px;
+	margin: 0 auto;
+	background-color: #b73c6d;
+}
+.ttm-description {
+	font-size: 18px;
+	letter-spacing: 0.02em;
+	line-height: 26px;
+	padding-top: 24px;
+}
+.ttm-row {
+	height:314px;
+	padding-left: 170px;
+
+}
+
+.cmt {
+	width: 500px;
+	height: 314px;
+	position: relative;
+	display: inline-block;
+	margin-right: 59px;
+	
+}
+.left-clm {
+	position: absolute;
+	top:0px;
+	left: 0px;
+	margin-top: 0px;
+	width: 96px;
+	height: 314px;
+}
+
+.right-clm {
+	letter-spacing: 0.02em;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	padding-top: 10px;
+	padding-left: 45px;
+	padding-right: 4px;
+	width: 404px;
+	height: 314px;
+
+	
+}
+.cmt-content {
+	font-style: italic;
+	font-size: 21px;
+	line-height: 31.2px;
+	color: #fff;
+}
+.pp-name {
+	margin-top: 27px;
+	margin-bottom: 10px;
+	font-style: bold;
+	font-size: 24px;
+	color: #fff;
+
+}
+.pp-position {
+	font-size: 18px;
+	color: #ffdd99;
+}
+
+#get-in-touch {
+	height: 931px;
+	background-color: #3c5499;
+}
+.git-container-top {
+	height: 292px;
+	text-align: center;
+	color: #fff;
+}
+.git-title {
+	height: 170px;
+	padding-top: 115px;
+	font-weight: bold;
+	font-size: 40px;
+	letter-spacing: 0.1em;
+
+}
+.git-line {
+	width: 87px;
+	height: 4px;
+	margin: 0 auto;
+	background-color: #273a71;
+}
+.git-description {
+	font-size: 18px;
+	letter-spacing: 0.02em;
+	line-height: 26px;
+	padding-top: 20px;
+}
+
+.git-container-mid {
+	height: 528px;
+}
+.git-container-mid .row {
+	padding-left: 274px;
+}
+.git-container-mid .info-input {
+	display: inline-block;
+	margin: 0px 16px;
+}
+
+
+.placeholder{
+   position: absolute;
+   top: 20px;
+   left: 24px;
+   color: #fff;
+   font-family: TitilliumWeb;
+   font-size: 18px;
+
+}
+.star{
+  color: #f00;
+}
+.input-group {
+	position: relative;
+  	width: 414px;
+  	height: 56px;
+  	display: inline-block;
+  	margin:0px 16px;
+}
+.input-group input {
+	width: 100%;
+	height: 100%;
+	border: none;
+	border-radius: 4px;
+	background-color: #273a71;
+	color: #fff;
+
+}
+.textarea-group {
+	position: relative;
+	width: 864px;
+	height: 200px;
+	margin-top: 27px;
+	margin-left: 16px;
+	margin-bottom: 59px;
+}
+.textarea-group textarea {
+	width: 100%;
+	height: 100%;
+	border: none;
+	border-radius: 4px;
+	background-color: #273a71;
+	color: #fff;
+}
+.git-container-mid input:focus ~ .placeholder {
+	visibility: hidden;
+}
+.git-container-mid textarea:focus ~ .placeholder {
+	visibility: hidden;
+}
+
+
+
+
+
+
+.git-button {
+	text-align: center;
+	position: relative;
+
+}
+.git-button > * {
+	display: inline-block;
+}
+.git-button >button {
+	width: 293px;
+	height: 70px;
+	background-color: #30bae7;
+	border-radius: 4px;
+	font-weight: 600;
+	font-size: 18px;
+	color: #fff;
+	border:none;
+}
+.git-button .shadow {
+	background-color: #299ec5;
+}
+.git-container-bot {
+	height: 111px;
+	background-color: #344b8e;
+}
+.references {
+	text-align: center;
+
+}
+.references >li {
+	display: inline-block;
+	margin: 48px 28px;
+	list-style: none;
+
+}
+.references  a {
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: 600;
+	color: #fff;
+}
+.references  a:hover {
+	color: #30bae7;
+}
+
+
+
