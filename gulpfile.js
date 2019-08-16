@@ -29,7 +29,6 @@ gulp.task('browserSync',['style','img','font'], function() {
 	gulp.watch(img_src,['img']);
 	gulp.watch(font_src,['font']);
 	gulp.watch('index.html').on('change',browserSync.reload);
-
 });
 
 gulp.task('default', ['browserSync'], function(){
